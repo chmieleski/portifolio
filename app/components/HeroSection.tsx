@@ -116,16 +116,16 @@ const HeroSection = () => {
 								<div className="flex justify-center">
 									<div className="inline-flex items-center gap-1.5 px-4 py-1 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 group-hover:border-blue-400/30 transition-colors">
 										<span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse"></span>
-										<span className="text-blue-400 text-sm font-medium">Featured App</span>
+										<span className="text-blue-400 text-sm font-medium">Projeto em Destaque</span>
 									</div>
 								</div>
 
 								{/* App Info */}
 								<div className="text-center mt-6">
 									<h3 className="text-2xl font-bold mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent group-hover:from-blue-400 group-hover:to-purple-400 transition-all duration-300">
-										FitTracker Pro
+										Mixhalo
 									</h3>
-									<p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors">Your Personal Fitness Companion</p>
+									<p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors">Aplicativo de transmição de audio em tempo real</p>
 
 									{/* Stats Grid */}
 									<div className="grid grid-cols-3 gap-4 mb-6">
@@ -136,7 +136,7 @@ const HeroSection = () => {
 												</svg>
 												<span className="font-semibold">4.9</span>
 											</div>
-											<p className="text-xs text-gray-500">Rating</p>
+											<p className="text-xs text-gray-500">Nota</p>
 										</div>
 										<div className="space-y-1">
 											<div className="flex items-center justify-center gap-1 text-blue-400">
@@ -154,7 +154,7 @@ const HeroSection = () => {
 												</svg>
 												<span className="font-semibold">200K+</span>
 											</div>
-											<p className="text-xs text-gray-500">Active Users</p>
+											<p className="text-xs text-gray-500">Usuários Ativos</p>
 										</div>
 									</div>
 
