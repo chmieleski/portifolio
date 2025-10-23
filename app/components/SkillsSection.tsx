@@ -10,6 +10,7 @@ const skills: Skill[] = [
 	{ name: 'Swift', level: 90 },
 	{ name: 'Kotlin', level: 85 },
 	{ name: 'Flutter', level: 80 },
+	{ name: 'Node.js', level: 75 },
 	{ name: 'Firebase', level: 88 },
 	{ name: 'App Store Optimization', level: 85 },
 ];
@@ -18,9 +19,9 @@ const SkillsSection = () => {
 	return (
 		<section className="py-16 md:py-20 relative">
 			<div className="container mx-auto px-4">
-				<h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4 text-center">Technical Expertise</h2>
+				<h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4 text-center">Experiências Profissionais</h2>
 				<p className="text-sm sm:text-base text-gray-400 text-center mb-8 sm:mb-12 max-w-2xl mx-auto px-4">
-					Specialized in modern mobile development technologies and frameworks
+					Especializado em tecnologias e frameworks modernos de desenvolvimento
 				</p>
 
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 max-w-5xl mx-auto">
@@ -30,7 +31,7 @@ const SkillsSection = () => {
 							<svg className="w-5 h-5 text-blue-400" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M12,16L19.36,10.27L21,9L12,2L3,9L4.63,10.27M12,18.54L4.62,12.81L3,14.07L12,21.07L21,14.07L19.37,12.8L12,18.54Z" />
 							</svg>
-							Core Technologies
+							Principais Tecnologias
 						</h3>
 						{skills.slice(0, 4).map((skill) => (
 							<div key={skill.name} className="group relative">
