@@ -21,7 +21,7 @@ const HeroSection = () => {
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed px-4">
 						Desenvolvendo experiências excepcionais com
-						<span className="text-blue-400"> React Native</span>,<span className="text-purple-400"> Swift</span>, and
+						<span className="text-blue-400"> React Native</span>,<span className="text-purple-400"> Swift</span>,
 						<span className="text-blue-400"> Flutter</span>, e
 						<span className="text-blue-400"> Kotlin</span>
 					</p>
@@ -31,8 +31,8 @@ const HeroSection = () => {
 				<div className="max-w-3xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-12 px-2">
 					{[
 						{
-							label: 'Apps Published',
-							value: '12+',
+							label: 'Aplicativos Publicados',
+							value: '100+',
 							icon: (
 								<svg className="w-8 h-8 text-blue-400" viewBox="0 0 24 24" fill="currentColor">
 									<path d="M17,1H7A2,2 0 0,0 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3A2,2 0 0,0 17,1M17,19H7V5H17V19M16,13H8V11H16V13M16,9H8V7H16V9M7,24H9V22H7V24M11,24H13V22H11V24M15,24H17V22H15V24" />
@@ -58,7 +58,7 @@ const HeroSection = () => {
 							),
 						},
 						{
-							label: 'Countries',
+							label: 'Países',
 							value: '150+',
 							icon: (
 								<svg className="w-8 h-8 text-green-400" viewBox="0 0 24 24" fill="currentColor">
